@@ -1,0 +1,21 @@
+.user-card-img {
+  /* max-width: 250px; */
+  width: 100%;
+}
+
+.user-card {
+  border: 1px solid grey;
+}
+
+.user-details {
+  padding: 10px;
+}
+.name-surname {
+  font-weight: 600;
+  color: black;
+}
+
+.title {
+  font-weight: 400;
+  color: black;
+}

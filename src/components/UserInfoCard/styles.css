@@ -1,0 +1,48 @@
+.user-details-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.user-details-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.info-section {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 10px;
+  position: relative;
+}
+.address-details {
+  max-height: 250px;
+  height: fit-content;
+  border: 1px solid grey;
+  padding: 10px;
+  position: relative;
+}
+
+.info-detail {
+  text-decoration: underline;
+}
+
+.details-legend {
+  position: absolute;
+  top: -10px;
+  background: #fff;
+  padding: 0px 3px;
+}
+
+@media (max-width: 768px) {
+  .user-details-card {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 40px)
+  }
+  .address-details {
+    width: 100%;
+    height: fit-content;
+  }
+}
